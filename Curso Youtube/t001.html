@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <h2> Em que pais você mora?</h2>
+  <!--<label for="paises">sdasd</label>
+   <select name="paises" id="paises">
+       <option value="Brasil">Brasil</option>
+       <option value="Eua">EUA</option>
+       <option value="Franca">França</option>
+   </select>-->
+
+   <input type="text" value="" id="paises">
+   <input type="button" value="Verificar" onclick="calcular()">
+
+   <div id="res"></div>
+
+   <script>
+       function calcular() {
+           let paises = window.document.getElementById('paises')
+           let res = window.document.getElementById('res')
+
+           if (paises == "Brasil"){
+              res.innerHTML = ('Você é Brasileiro')
+           }else{
+            res.innerHTML = ('Você é Gringo')
+           }
+       }
+   </script>
+
+</body>
+
+
+</html>

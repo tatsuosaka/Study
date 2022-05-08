@@ -1,0 +1,46 @@
+/* ul {
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding:5px 20px;
+    border: 1px solid red;
+    background: url(seta.png) no-repeat left center;
+}
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+ width: 200px;
+ height: 40px;
+ text-decoration: none;
+ display: block;
+ background: #f7b600 url(menu.png) no-repeat left bottom;
+ text-indent: 40px;
+ line-height: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+
+}
+
+ul a:hover, .selecionado a {
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    background: #f99200 url(menu.png) no-repeat right bottom;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+   
+   }

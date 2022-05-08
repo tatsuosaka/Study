@@ -1,0 +1,28 @@
+
+        
+p  {
+    color:red;
+}
+
+.azul {
+    color: green;
+}
+
+#principal {
+    background: gainsboro;
+}
+
+.absoluto {
+    position: absolute;
+    border: 1px solid red;
+    width: 50px;
+    right: 5px;
+    bottom: 5px;
+    animation-name: test;
+    animation-duration: 1s;
+}
+
+@keyframes test {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
